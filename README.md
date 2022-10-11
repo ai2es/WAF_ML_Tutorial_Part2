@@ -5,7 +5,7 @@ THIS REPO IS IN ACTIVE DEVELOPMENT. PLEASE BE PATIENT
 ## Introduction 
 This repository is the code associated with the [WAF](https://journals.ametsoc.org/view/journals/wefo/wefo-overview.xml) manuscript titled: "A Machine Learning Tutorial for Operational Meteorology, Part II: Neural Networks" written by Chase, R. J., Harrison, D. R., Burke, A., Lackmann, G. and McGovern, A. *in prep*. While the paper undergoes review, feel free to read its [preprint](#) and provide any comments to via email to the corresponding author. If you have any issues with the code (bugs or other questions) please leave an [issue](https://github.com/ai2es/WAF_ML_Tutorial_Part2/issues) associated with this repo.
 
-This second paper and repo (of two) covers the *neural network* machine learning methods (i.e., deep learning; if you don't know what that phrase even means thats OK! Check out Section 2 in the paper). If you dont know what machine learning is, please check out paper one in this series found [here](https://arxiv.org/abs/2204.07492).
+This second paper and repo (of two) covers *neural networks* and *deep learning* machine learning methods (if you don't know what these phrases even mean thats OK! Check out Section 2 in the paper). If you dont know what machine learning is, please check out paper one in this series found [here](https://journals.ametsoc.org/view/journals/wefo/37/8/WAF-D-22-0070.1.xml).
 
 ## Motivation
 
@@ -56,13 +56,13 @@ There are two main ways to interact with the code here.
 
    2. Now that conda is installed, clone this repository to your local machine with the command:
 
-      ``` $ git clone https://github.com/ai2es/WAF_ML_Tutorial_Part1.git ``` 
+      ``` $ git clone https://github.com/ai2es/WAF_ML_Tutorial_Part2.git ``` 
 
       If you dont have git, you can install git ([Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)) or choose the "Download Zip" option, unzip it and then continue with these steps. 
 
    3. Change into the newly downloaded directory 
 
-      ``` $ cd WAF_ML_Tutroial_Part1.git ``` 
+      ``` $ cd WAF_ML_Tutroial_Part2.git ``` 
 
    4. It is good practice to always make a new env for each project you work on. So here we will make a new environment  
 
@@ -70,11 +70,11 @@ There are two main ways to interact with the code here.
 
    5. Activate the new environment 
 
-      ``` $ conda activate waf_tutorial_part1 ``` 
+      ``` $ conda activate waf_tutorial_part2 ``` 
 
    6. Add this new environement to a kernel in jupyter 
 
-      ```$ python -m ipykernel install --user --name waf_tutorial_part1 --display-name "waf_tutorial_part1" ```
+      ```$ python -m ipykernel install --user --name waf_tutorial_part2 --display-name "waf_tutorial_part2" ```
 
    7. Go back to the base environment 
 
@@ -84,4 +84,4 @@ There are two main ways to interact with the code here.
 
       ``` $ jupyter lab ``` 
 
-   9. You should be able to open the notebooks with this repository and you should be able to add the kernel we just installed with the name *waf_tutorial_part1*. To change from the default kernel, click on the ```kernels``` tab and select ```Change Kernel...``` and select the ```waf_tutorial_part1``` kernel.  
+   9. You should be able to open the notebooks with this repository and you should be able to add the kernel we just installed with the name *waf_tutorial_part2*. To change from the default kernel, click on the ```kernels``` tab and select ```Change Kernel...``` and select the ```waf_tutorial_part2``` kernel.  
