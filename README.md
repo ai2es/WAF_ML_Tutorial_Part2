@@ -1,11 +1,11 @@
 # WAF Tutorial Part 2: Neural Networks
 
-THIS REPO IS IN ACTIVE DEVELOPMENT. PLEASE BE PATIENT 
+THIS REPO IS IN ACTIVE DEVELOPMENT. PLEASE BE PATIENT. SUBMISSION OF PAPER ANTICIPATED BY 01-NOV-2022. 
 
 ## Introduction 
-This repository is the code associated with the [WAF](https://journals.ametsoc.org/view/journals/wefo/wefo-overview.xml) manuscript titled: "A Machine Learning Tutorial for Operational Meteorology, Part II: Neural Networks" written by Chase, R. J., Harrison, D. R., Burke, A., Lackmann, G. and McGovern, A. *in prep*. While the paper undergoes review, feel free to read its [preprint](#) and provide any comments to via email to the corresponding author. If you have any issues with the code (bugs or other questions) please leave an [issue](https://github.com/ai2es/WAF_ML_Tutorial_Part2/issues) associated with this repo.
+This repository is the code associated with the [WAF](https://journals.ametsoc.org/view/journals/wefo/wefo-overview.xml) manuscript titled: "A Machine Learning Tutorial for Operational Meteorology, Part II: Neural Networks" written by Chase, R. J., Harrison, D. R., Lackmann, G. and McGovern, A. *in prep*. While the paper undergoes review, feel free to read its [preprint](#) and provide any comments via email to the corresponding author. If you have any issues with the code (bugs or other questions) please leave an [issue](https://github.com/ai2es/WAF_ML_Tutorial_Part2/issues) associated with this repo.
 
-This second paper and repo (of two) covers *neural networks* and *deep learning* machine learning methods (if you don't know what these phrases even mean thats OK! Check out Section 2 in the paper). If you dont know what machine learning is, please check out paper one in this series found [here](https://journals.ametsoc.org/view/journals/wefo/37/8/WAF-D-22-0070.1.xml).
+This second paper and repo (of two) that covers *neural networks* and *deep learning* methods (if you don't know what these phrases even mean thats OK! Check out Section 2 in the paper). If you dont know what machine learning is, please check out paper one in this series found [here](https://journals.ametsoc.org/view/journals/wefo/37/8/WAF-D-22-0070.1.xml).
 
 ## Motivation
 
@@ -19,7 +19,9 @@ Like part 1, we go beyond just discussing neural networks in an abstract way. We
 
 ![SEVIR Sample](https://github.com/MIT-AI-Accelerator/eie-sevir/blob/master/examples/tutorial_img/sevir_sample.gif)
 
-Unfortunately the original SEVIR dataset is far to combersome for most to deal with on their personal machines (the size of the data is almost 1 TB). So to assist in making an accessible and tangible sandbox dataset for this tutorial we made sub-SEVIR, which decreases the resolution of all variables to be 48 by 48 (~8km by 8km) and only take 1 hour of data instead of all 4 hours in the SEVIR dataset. The result is a much more magangable dataset (only 2 GB in storage now). So you can see the change in the dataset,[here](https://www.youtube.com/watch?v=ntjNB0SAz1Y) is a movie from the original SEVIR dataset and resolution for an example storm. The sub-SEVIR version can be seen [here](https://youtu.be/UAEfD1p5uW8). 
+Unfortunately the original SEVIR dataset is far to combersome for most to deal with on their personal machines (the size of the data is almost 1 TB). So to assist in making an accessible and tangible sandbox dataset for this tutorial we made ```sub-SEVIR```, which decreases the resolution of all variables to be 48 by 48 (~8km by 8km) and only take 1 hour of data instead of all 4 hours in the SEVIR dataset. The result is a much more magangable dataset (only 2 GB in storage now). So you can see the change in the dataset,[here](https://www.youtube.com/watch?v=ntjNB0SAz1Y) is a movie from the original SEVIR dataset and resolution for an example storm. The sub-SEVIR version can be seen [here](https://youtu.be/UAEfD1p5uW8). 
+
+Unfortunately 2 GB  is still too big for github, so we have made ```sub-SEVIR``` available by download on zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7011372.svg)](https://doi.org/10.5281/zenodo.7011372). Notebook 1 will help you download it.
 
 # Getting Started
 
