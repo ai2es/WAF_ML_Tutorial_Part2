@@ -17,7 +17,7 @@ pe1 = [path_effects.withStroke(linewidth=2,
 pe2 = [path_effects.withStroke(linewidth=2,
                              foreground="w")]
 
-def show_vals(da,ax):
+def show_vals(da,ax,fontsize=16):
     vals = da.values
     x = np.arange(0,vals.shape[0])
     y = np.arange(0,vals.shape[1])
@@ -28,10 +28,10 @@ def show_vals(da,ax):
     for i in np.arange(0,len(X)):
         fillstr = np.asarray(np.round(V[i],2),dtype=str)
         fillstr = np.char.ljust(fillstr,4,'0')
-        if np.round(V[i],2) > 0.5:
-            ax.text(X[i]-0.2,Y[i],fillstr,color='k')
+        if (np.round(V[i],2) > 10) and (np.round(V[i],2) < 50):
+            ax.text(X[i]-0.25,Y[i]+0.1,fillstr,color='k',fontsize=fontsize)
         else:
-            ax.text(X[i]-0.2,Y[i],fillstr,color='w')
+            ax.text(X[i]-0.25,Y[i]+0.1,fillstr,color='w',fontsize=fontsize)
     return
 
 def draw_zoom_window(ax,a,b):
