@@ -1,13 +1,15 @@
 # WAF Tutorial Part 2: Neural Networks
 
-THIS REPO IS IN ACTIVE DEVELOPMENT. PLEASE BE PATIENT. SUBMISSION OF PAPER ANTICIPATED BY 01-NOV-2022. 
-
 ## Introduction 
-This repository is the code associated with the [WAF](https://journals.ametsoc.org/view/journals/wefo/wefo-overview.xml) manuscript titled: "A Machine Learning Tutorial for Operational Meteorology, Part II: Neural Networks" written by Chase, R. J., Harrison, D. R., Lackmann, G. and McGovern, A. *in prep*. While the paper undergoes review, feel free to read its [preprint](#) and provide any comments via email to the corresponding author. If you have any issues with the code (bugs or other questions) please leave an [issue](https://github.com/ai2es/WAF_ML_Tutorial_Part2/issues) associated with this repo.
+This repository is the code associated with the [WAF](https://journals.ametsoc.org/view/journals/wefo/wefo-overview.xml) manuscript titled: "A Machine Learning Tutorial for Operational Meteorology, Part II: Neural Networks" written by Chase, R. J., Harrison, D. R., Lackmann, G. and McGovern, A. *in prep*. While the paper undergoes review, feel free to read its [preprint](https://arxiv.org/abs/2211.00147) and provide any comments via email to the corresponding author. If you have any issues with the code (bugs or other questions) please leave an [issue](https://github.com/ai2es/WAF_ML_Tutorial_Part2/issues) associated with this repo.
 
 This second paper and repo (of two) that covers *neural networks* and *deep learning* methods (if you don't know what these phrases even mean thats OK! Check out Section 2 in the paper). If you dont know what machine learning is, please check out paper one in this series found [here](https://journals.ametsoc.org/view/journals/wefo/37/8/WAF-D-22-0070.1.xml).
 
+Please note, there are 2 missing notebooks at this time (Dec 2022), these will come sometime in the new year.
+
 ## Motivation
+
+Note, this figure will be updated in 2023 to contain the full results of 2022. 
 
  <img src="images/webofscience_fig.png" width="600" height="200" class="center" />
 
