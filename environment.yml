@@ -1,4 +1,4 @@
-name: waf_tutorial_part1
+name: waf_tutorial_part2
 channels:
   - conda-forge
 dependencies:
@@ -16,3 +16,4 @@ dependencies:
   - ipykernel
   - s3fs
   - tensorflow
+  - zarr
